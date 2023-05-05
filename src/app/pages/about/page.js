@@ -2,7 +2,7 @@
 import { gsap } from "gsap";
 import { useRouter } from "next/navigation";
 import { useEffect } from "react";
-export default function about() {
+export default function About() {
   const router = useRouter();
   router;
   useEffect(() => {
@@ -11,8 +11,7 @@ export default function about() {
       y: 150,
       rotate: 720,
       duration: 0.5,
-      delay:1,
-
+      delay: 1,
     });
   }, []);
   return (

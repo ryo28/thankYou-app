@@ -8,7 +8,7 @@ export function RandamButton() {
     let randamNum = Math.floor(Math.random() * 101);
     if (randamNum === 100) {
      
-      router.push("/pages/about");
+      router.push("/pages/About");
     }
   }
   return (
